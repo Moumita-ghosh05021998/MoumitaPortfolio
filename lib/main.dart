@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:soumenportfolio/Views/Home.dart';
-import 'package:soumenportfolio/Views/SplashScreenScreen.dart';
+
 
 void main() {
   runApp(MyApp());
