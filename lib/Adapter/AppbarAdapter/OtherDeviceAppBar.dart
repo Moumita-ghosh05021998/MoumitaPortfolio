@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:soumenportfolio/Views/AboutMe.dart';
-import 'package:soumenportfolio/Views/Experience.dart';
-import 'package:soumenportfolio/Views/Home.dart';
-import 'package:soumenportfolio/Views/Projects.dart';
+import 'package:moumita_portfolio/Views/AboutMe.dart';
+import 'package:moumita_portfolio/Views/Experience.dart';
+import 'package:moumita_portfolio/Views/Home.dart';
+import 'package:moumita_portfolio/Views/Projects.dart';
+
 
 import '../../Variable.dart';
 

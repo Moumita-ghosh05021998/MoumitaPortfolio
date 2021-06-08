@@ -13,7 +13,7 @@ class _SkillState extends State<Skill> {
     return Future.delayed(Duration(seconds: n));
   }
 
-   double hight, width;
+    double hight, width;
   @override
   Widget build(BuildContext context) {
     hight = MediaQuery.of(context).size.height > 600

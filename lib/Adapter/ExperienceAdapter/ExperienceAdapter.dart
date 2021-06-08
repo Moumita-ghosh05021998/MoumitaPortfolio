@@ -10,11 +10,11 @@ class ExperienceAdapter extends StatefulWidget {
 
   const ExperienceAdapter(
       {key,
-       this.CompanyLogoPath,
-       this.CompanyName,
-       this.WorkDescription,
-       this.WorkDescriptionForMobile,
-       this.WorkDuration})
+       @required this.CompanyLogoPath,
+       @required this.CompanyName,
+       @required this.WorkDescription,
+       @required this.WorkDescriptionForMobile,
+       @required this.WorkDuration})
       : super(key: key);
 
   @override
@@ -22,7 +22,7 @@ class ExperienceAdapter extends StatefulWidget {
 }
 
 class _ExperienceAdapterState extends State<ExperienceAdapter> {
-   double hight, width;
+    double hight, width;
   @override
   Widget build(BuildContext context) {
     hight = MediaQuery.of(context).size.height > 600

@@ -14,23 +14,23 @@ class ProjectAdapter extends StatefulWidget {
   final String ProjectUrl;
 
   const ProjectAdapter(
-      {Key key,
-       this.ProjectName,
-       this.ProjectLogoPath,
-       this.ProjectDescription,
-       this.ProjectDescriptionForMobile,
-       this.FirstTechnology,
-       this.SecondTechnology,
-       this.ThirdTechnology,
-       this.ForthTechnology,
-       this.ProjectUrl})
+      { Key key,
+       @required this.ProjectName,
+        this.ProjectLogoPath,
+       @required this.ProjectDescription,
+       @required this.ProjectDescriptionForMobile,
+       @required this.FirstTechnology,
+       @required this.SecondTechnology,
+       @required this.ThirdTechnology,
+       @required this.ForthTechnology,
+       @required this.ProjectUrl})
       : super(key: key);
   @override
   _ProjectAdapterState createState() => _ProjectAdapterState();
 }
 
 class _ProjectAdapterState extends State<ProjectAdapter> {
-   double hight, width;
+    double hight, width;
   @override
   Widget build(BuildContext context) {
     hight = MediaQuery.of(context).size.height > 600

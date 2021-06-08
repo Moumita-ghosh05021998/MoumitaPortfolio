@@ -15,7 +15,7 @@ class Introduction extends StatefulWidget {
 }
 
 class _IntroductionState extends State<Introduction> {
-   double hight, width;
+    double hight, width;
 
   @override
   Widget build(BuildContext context) {
