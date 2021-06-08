@@ -1,5 +1,5 @@
 //SOCIAL MEDIA LINKS
-const String MAIL_ID = "palsoumen306@gmail.com";
+const String MAIL_ID = "ghoshm259@gmail.com";
 const String LINKEDLN_URL = "linkedin.com/in/soumen-pal-9a355b154";
 const String GITHUB_URL = "https://github.com/soumen744488";
 const String TWITTER_URL = "https://twitter.com/palsoumen748";
@@ -17,7 +17,7 @@ const String MORE_DETAILS_INTRODUCTION = "I love to build neat, cool and scalabl
 
 
 //IMAGE ASSET PATH
-const String IMAGE_PATH = 'assets/images/soumen.jpg';
+const String IMAGE_PATH = 'assets/images/moumita.jpg';
 
 //ABOUT ME SECTION
 const String WHO_AM_I ="Hello! I'm Soumen Pal  , an Computer Science and Engineering students and software Developer.\n"
