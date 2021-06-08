@@ -68,7 +68,7 @@ class _AboutState extends State<About> {
                           border: Border.all(color: borderColor, width: 2),
                           image: DecorationImage(
                             image: AssetImage(
-                                'assets/images/soumen.jpg'),
+                                'assets/images/moumita.jpg'),
                           ),
                         ),
                       ),
@@ -124,7 +124,7 @@ class _AboutState extends State<About> {
                         border: Border.all(color: borderColor, width: 2),
                         image: DecorationImage(
                           image: AssetImage(
-                              'assets/images/soumen.jpg'),
+                              'assets/images/moumita.jpg'),
                         ),
                       ),
                     ),

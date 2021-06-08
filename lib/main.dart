@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Soumen Pal',
+        title: 'Moumita Ghosh',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           // This is the theme of your application.

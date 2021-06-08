@@ -40,7 +40,7 @@ class _MobileAppBarState extends State<MobileAppBar> {
                   ),
                 ),
               ),
-              Text("Soumen",style: TextStyle(color: Colors.white),),
+              Text("Moumita",style: TextStyle(color: Colors.white),),
             ],
           ),
         )
