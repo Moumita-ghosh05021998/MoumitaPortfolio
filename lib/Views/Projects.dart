@@ -5,7 +5,6 @@ import 'package:moumita_portfolio/Adapter/AppbarAdapter/OtherDeviceAppBar.dart';
 import 'package:moumita_portfolio/Adapter/MobileDrawerAdapter/MobileDrawer.dart';
 import 'package:moumita_portfolio/Adapter/ProjectsAdapter/ProjectsAdapter.dart';
 
-
 class Projects extends StatefulWidget {
   @override
   _ProjectsState createState() => _ProjectsState();
@@ -60,7 +59,7 @@ class _ProjectsState extends State<Projects> {
                 SizedBox(
                   height: 15,
                 ),
-            /*    FutureBuilder(
+                FutureBuilder(
                     future: count(2),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
@@ -69,36 +68,36 @@ class _ProjectsState extends State<Projects> {
                           ProjectLogoPath: 'assets/images/iv.png',
                           ProjectDescription: "'RWS' or 'Read Write & Share' is an Android application .\nOne can use it as a code editor (c,c++,java,python) and sharing purpose",
                           ProjectDescriptionForMobile: "'RWS' or 'Read Write & Share' is an Android application .\nOne can use it as a code editor (c,c++,java,python) and sharing purpose",
-                          FirstTechnology: 'ANDROID ',
-                          SecondTechnology: ' , JAVA ',
-                          ThirdTechnology: ' , XML ',
-                          ForthTechnology: ' , REST API (Retrofit)',
-                          ProjectUrl: "https://github.com/iamsouviki/Read-Write-and-Share", key: null,
+                          FirstTechnology: 'Android',
+                          SecondTechnology: 'Java',
+                          ThirdTechnology: 'Xml',
+                          ForthTechnology: 'Rest Api (Rectrofit)',
+                          ProjectUrl: "https://github.com/iamsouviki/Read-Write-and-Share",
                         );
                       }
                       return Container();
-                    }),*/
+                    }),
                 SizedBox(
                   height: 12,
                 ),
-               /* FutureBuilder(
+                FutureBuilder(
                     future: count(3),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
                         return ProjectAdapter(
-                          ProjectName: "Tic Tac Toe",
+                          ProjectName: "My Portfolio",
                           ProjectLogoPath: '',
-                          ProjectDescription: "'Tic Tac Toe' is a flutter application using BackTracking MinMax Algorithm .\n Here We can play with computer as well as human .",
-                          ProjectDescriptionForMobile: "'Tic Tac Toe' is a flutter application using BackTracking MinMax Algorithm .\n Here We can play with computer as well as human .",
-                          FirstTechnology: ' Flutter ',
-                          SecondTechnology: ' , Algorithm (BackTrcking Minmax) ',
-                          ThirdTechnology: ' , Dart',
-                          ForthTechnology: ' , Github  , Firebase',
-                          ProjectUrl: "https://github.com/iamsouviki/tictactoe_game",
+                          ProjectDescription: "'My Portfolio' is a flutter web application . Its just a web resume",
+                          ProjectDescriptionForMobile: "'My Portfolio' is a flutter web application .\nIts just a web resume",
+                          FirstTechnology: 'Flutter',
+                          SecondTechnology: 'Dart',
+                          ThirdTechnology: 'Github',
+                          ForthTechnology: 'Firebase',
+                          ProjectUrl: "https://github.com/soumen744488/soumen_portfolio_flutter",
                         );
                       }
                       return Container();
-                    }),*/
+                    }),
                 SizedBox(
                   height: 12,
                 ),
@@ -107,40 +106,19 @@ class _ProjectsState extends State<Projects> {
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
                         return ProjectAdapter(
-                          ProjectName: "My Portfolio",
+                          ProjectName: "Expense Manager",
                           ProjectLogoPath: '',
-                          ProjectDescription: "'My Portfolio' is a flutter web application . Its just a web resume",
-                          ProjectDescriptionForMobile: "'My Portfolio' is a flutter web application .\nIts just a web resume",
-                          FirstTechnology: 'FLUTTER ',
-                          SecondTechnology: ', DART ',
-                          ThirdTechnology: ', FIREBASE ',
-                          ForthTechnology: ', GITHUB',
-                          ProjectUrl: "https://github.com/Moumita-ghosh05021998/MoumitaPortfolio",
+                          ProjectDescription: "'Expense Manager' is a Python GUI tikinter Based application , \nwhich is developed to keep tracking on daily expenses and as well as we can save money for predefine expenses which will help for future investment . ",
+                          ProjectDescriptionForMobile: "'Expense Manager' is a Python GUI tikinter Based application , \nwhich is developed to keep tracking on daily expenses and \nas well as we can save money for predefine expenses which will help for future investment .",
+                          FirstTechnology: '',
+                          SecondTechnology: 'Python',
+                          ThirdTechnology: 'Sqlite',
+                          ForthTechnology: '',
+                          ProjectUrl: "https://github.com/soumen744488/ExpenseManager",
                         );
                       }
                       return Container();
                     }),
-                SizedBox(
-                  height: 12,
-                ),
-                /*FutureBuilder(
-                    future: count(5),
-                    builder: (context, snapshot) {
-                      if (snapshot.connectionState == ConnectionState.done) {
-                        return ProjectAdapter(
-                          ProjectName: "Expense Manager",
-                          ProjectLogoPath: '',
-                          ProjectDescription: "'Expense Manager' is a Python GUI tikinter Based application , \nwhich is developed to keep tracking on daily expenses and as well as we can save money for predefine expenses\n which will help for future investment . ",
-                          ProjectDescriptionForMobile: "'Expense Manager' is a Python GUI tikinter Based application , \nwhich is developed to keep tracking on daily expenses and \nas well as we can save money for predefine expenses\n which will help for future investment .",
-                          FirstTechnology: '',
-                          SecondTechnology: 'PYTHON',
-                          ThirdTechnology: ' , SQLite',
-                          ForthTechnology: '',
-                          ProjectUrl: "https://github.com/iamsouviki/ExpenseManager",
-                        );
-                      }
-                      return Container();
-                    }),*/
               ],
             ),
           ),

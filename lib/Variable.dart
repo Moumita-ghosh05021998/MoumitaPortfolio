@@ -47,8 +47,8 @@ const String SKILL1 = "JAVA";
 const String SKILL2 = "SQL";
 const String SKILL3 = "ANDROID" ;
 const String SKILL4 = "MS WORD" ;
-//const String SKILL5 = "" ;
-//const String SKILL6 = "";
+const String SKILL5 = "WINDOWS" ;
+const String SKILL6 = "PHP";
 
 
 

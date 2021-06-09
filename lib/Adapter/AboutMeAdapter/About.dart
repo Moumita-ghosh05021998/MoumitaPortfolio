@@ -16,7 +16,7 @@ class _AboutState extends State<About> {
     return Future.delayed(Duration(seconds: n));
   }
 
-    double hight, width;
+   double hight, width;
   @override
   Widget build(BuildContext context) {
     hight = MediaQuery.of(context).size.height > 600
@@ -68,7 +68,7 @@ class _AboutState extends State<About> {
                           border: Border.all(color: borderColor, width: 2),
                           image: DecorationImage(
                             image: AssetImage(
-                                'assets/images/moumita.jpg'),
+                                'assets/images/soumen.jpg'),
                           ),
                         ),
                       ),
@@ -124,7 +124,7 @@ class _AboutState extends State<About> {
                         border: Border.all(color: borderColor, width: 2),
                         image: DecorationImage(
                           image: AssetImage(
-                              'assets/images/moumita.jpg'),
+                              'assets/images/soumen.jpg'),
                         ),
                       ),
                     ),

@@ -13,7 +13,7 @@ class _EducationState extends State<Education> {
     return Future.delayed(Duration(seconds: n));
   }
 
-    double hight, width;
+   double hight, width;
   @override
   Widget build(BuildContext context) {
     hight = MediaQuery.of(context).size.height > 600
@@ -161,79 +161,7 @@ class _EducationState extends State<Education> {
                                   child: AnimatedTextKit(
                                     isRepeatingAnimation: false,
                                     animatedTexts: [
-                                      TypewriterAnimatedText(DIPLOMA,
-                                          speed: Duration(milliseconds: 10),
-                                          textStyle: TextStyle(
-                                            color: Colors.blueGrey[900],
-                                            fontSize: 17,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.start),
-                                    ],
-                                  ),
-                                );
-                              }
-                              return Container();
-                            },
-                          ),
-                          FutureBuilder(
-                            future: count(1),
-                            builder: (context, snapshot) {
-                              if (snapshot.connectionState == ConnectionState.done) {
-                                return Container(
-                                  padding: EdgeInsets.fromLTRB(15,0,15,10),
-                                  child: AnimatedTextKit(
-                                    isRepeatingAnimation: false,
-                                    animatedTexts: [
-                                      TypewriterAnimatedText(DIPLOMA_COLLEGE_NAME,
-                                          speed: Duration(milliseconds: 10),
-                                          textStyle: TextStyle(
-                                            color: Colors.blueGrey[900],
-                                            fontSize: 12,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.start),
-                                    ],
-                                  ),
-                                );
-                              }
-                              return Container();
-                            },
-                          ),
-                          FutureBuilder(
-                            future: count(1),
-                            builder: (context, snapshot) {
-                              if (snapshot.connectionState == ConnectionState.done) {
-                                return Container(
-                                  padding: EdgeInsets.fromLTRB(15,0,15,15),
-                                  child: AnimatedTextKit(
-                                    isRepeatingAnimation: false,
-                                    animatedTexts: [
-                                      TypewriterAnimatedText(DIPLOMA_PERCENTAGE,
-                                          speed: Duration(milliseconds: 10),
-                                          textStyle: TextStyle(
-                                            color: Colors.blueGrey[900],
-                                            fontSize: 11,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.start),
-                                    ],
-                                  ),
-                                );
-                              }
-                              return Container();
-                            },
-                          ),
-                          FutureBuilder(
-                            future: count(1),
-                            builder: (context, snapshot) {
-                              if (snapshot.connectionState == ConnectionState.done) {
-                                return Container(
-                                  padding: EdgeInsets.fromLTRB(15,15,15,10),
-                                  child: AnimatedTextKit(
-                                    isRepeatingAnimation: false,
-                                    animatedTexts: [
-                                      TypewriterAnimatedText("10+2 ( 2015 )",
+                                      TypewriterAnimatedText("10+2 ( 2017 )",
                                           speed: Duration(milliseconds: 10),
                                           textStyle: TextStyle(
                                             color: Colors.blueGrey[900],
@@ -305,7 +233,7 @@ class _EducationState extends State<Education> {
                                   child: AnimatedTextKit(
                                     isRepeatingAnimation: false,
                                     animatedTexts: [
-                                      TypewriterAnimatedText("10 ( 2013 )",
+                                      TypewriterAnimatedText("10 ( 2015 )",
                                           speed: Duration(milliseconds: 10),
                                           textStyle: TextStyle(
                                             color: Colors.blueGrey[900],
@@ -484,79 +412,7 @@ class _EducationState extends State<Education> {
                                 child: AnimatedTextKit(
                                   isRepeatingAnimation: false,
                                   animatedTexts: [
-                                    TypewriterAnimatedText(DIPLOMA,
-                                        speed: Duration(milliseconds: 10),
-                                        textStyle: TextStyle(
-                                          color: Colors.blueGrey[900],
-                                          fontSize: 17,
-                                          fontWeight: FontWeight.w700,
-                                        ),
-                                        textAlign: TextAlign.start),
-                                  ],
-                                ),
-                              );
-                            }
-                            return Container();
-                          },
-                        ),
-                        FutureBuilder(
-                          future: count(1),
-                          builder: (context, snapshot) {
-                            if (snapshot.connectionState == ConnectionState.done) {
-                              return Container(
-                                padding: EdgeInsets.fromLTRB(15,0,15,10),
-                                child: AnimatedTextKit(
-                                  isRepeatingAnimation: false,
-                                  animatedTexts: [
-                                    TypewriterAnimatedText(DIPLOMA_COLLEGE_NAME,
-                                        speed: Duration(milliseconds: 10),
-                                        textStyle: TextStyle(
-                                          color: Colors.blueGrey[900],
-                                          fontSize: 12,
-                                          fontWeight: FontWeight.w700,
-                                        ),
-                                        textAlign: TextAlign.start),
-                                  ],
-                                ),
-                              );
-                            }
-                            return Container();
-                          },
-                        ),
-                        FutureBuilder(
-                          future: count(1),
-                          builder: (context, snapshot) {
-                            if (snapshot.connectionState == ConnectionState.done) {
-                              return Container(
-                                padding: EdgeInsets.fromLTRB(15,0,15,15),
-                                child: AnimatedTextKit(
-                                  isRepeatingAnimation: false,
-                                  animatedTexts: [
-                                    TypewriterAnimatedText(DIPLOMA_PERCENTAGE,
-                                        speed: Duration(milliseconds: 10),
-                                        textStyle: TextStyle(
-                                          color: Colors.blueGrey[900],
-                                          fontSize: 11,
-                                          fontWeight: FontWeight.w700,
-                                        ),
-                                        textAlign: TextAlign.start),
-                                  ],
-                                ),
-                              );
-                            }
-                            return Container();
-                          },
-                        ),
-                        FutureBuilder(
-                          future: count(1),
-                          builder: (context, snapshot) {
-                            if (snapshot.connectionState == ConnectionState.done) {
-                              return Container(
-                                padding: EdgeInsets.fromLTRB(15,15,15,10),
-                                child: AnimatedTextKit(
-                                  isRepeatingAnimation: false,
-                                  animatedTexts: [
-                                    TypewriterAnimatedText("10+2 ( 2015 )",
+                                    TypewriterAnimatedText("10+2 ( 2017 )",
                                         speed: Duration(milliseconds: 10),
                                         textStyle: TextStyle(
                                           color: Colors.blueGrey[900],
@@ -628,7 +484,7 @@ class _EducationState extends State<Education> {
                                 child: AnimatedTextKit(
                                   isRepeatingAnimation: false,
                                   animatedTexts: [
-                                    TypewriterAnimatedText("10 ( 2013 )",
+                                    TypewriterAnimatedText("10 ( 2015 )",
                                         speed: Duration(milliseconds: 10),
                                         textStyle: TextStyle(
                                           color: Colors.blueGrey[900],

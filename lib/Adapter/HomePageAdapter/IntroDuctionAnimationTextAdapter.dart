@@ -140,7 +140,7 @@ class _IntroDuctionAnimationTextAdapterState
                         style: TextStyle(color: Colors.black, fontSize: 15),
                       ),
                       onPressed: (){
-                        launch("https://drive.google.com/file/d/1w8HycdKjs6N3Hdu3PGTiNTkkUTCSsKLS/view?usp=sharing");
+                        launch("https://drive.google.com/file/d/1TjU77NnPCJEgYJwNOoMvKOsxz-n6KmnH/view?usp=sharing");
                       },
                     ),
                   );
@@ -160,7 +160,7 @@ class _IntroDuctionAnimationTextAdapterState
                       isRepeatingAnimation: false,
                       animatedTexts: [
                         TypewriterAnimatedText(
-                          "Design & Build by Moumita with ❤ Flutter",
+                          "Design & Build by Soumen with ❤ Flutter",
                           textStyle: TextStyle(
                             color: Colors.grey,
                             fontSize: 10,
