@@ -31,6 +31,10 @@ const String DEGREE = "Bachelor of Technology in Computer Science & Engineering 
 const String COLLEGE_NAME = "Government College Of Engineering and Textile Technology, Serampore ";
 const String CGPA = "CGPA :- 8.7";
 
+const String DIPLOMA = "Diploma in Computer Science & Technology ";
+const String DIPLOMA_COLLEGE_NAME = "Women's Ploytechnic, Chnadannagar ";
+const String DIPLOMA_PERCENTAGE = "Percentage :- 80.1";
+
 const String TWELVETH_SCHOOL = "Panjipukur Smt. Tulsi Devi Smriti Vidyapith";
 const String TWELVETH_PERSENTAGE = "Percentage :- 70.2";
 
