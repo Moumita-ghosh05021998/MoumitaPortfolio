@@ -51,7 +51,7 @@ class SocialAccounts extends StatelessWidget {
             .make(),
       ),
       20.widthBox,
-      Container(
+      /*Container(
         padding: EdgeInsets.all(10),
         child: Icon(
           IconData(0xe804,fontFamily: 'MySocialIcons',fontPackage: null),
@@ -61,7 +61,7 @@ class SocialAccounts extends StatelessWidget {
           launch(INSTAGRAM_URL);
         })
             .make(),
-      ),
+      ),*/
       20.widthBox,
       Container(
         padding: EdgeInsets.all(10),
