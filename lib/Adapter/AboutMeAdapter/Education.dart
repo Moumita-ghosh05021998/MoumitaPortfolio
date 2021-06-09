@@ -161,7 +161,7 @@ class _EducationState extends State<Education> {
                                   child: AnimatedTextKit(
                                     isRepeatingAnimation: false,
                                     animatedTexts: [
-                                      TypewriterAnimatedText("10+2 ( 2017 )",
+                                      TypewriterAnimatedText("10+2 ( 2015 )",
                                           speed: Duration(milliseconds: 10),
                                           textStyle: TextStyle(
                                             color: Colors.blueGrey[900],
@@ -233,7 +233,7 @@ class _EducationState extends State<Education> {
                                   child: AnimatedTextKit(
                                     isRepeatingAnimation: false,
                                     animatedTexts: [
-                                      TypewriterAnimatedText("10 ( 2015 )",
+                                      TypewriterAnimatedText("10 ( 2013 )",
                                           speed: Duration(milliseconds: 10),
                                           textStyle: TextStyle(
                                             color: Colors.blueGrey[900],
@@ -412,7 +412,7 @@ class _EducationState extends State<Education> {
                                 child: AnimatedTextKit(
                                   isRepeatingAnimation: false,
                                   animatedTexts: [
-                                    TypewriterAnimatedText("10+2 ( 2017 )",
+                                    TypewriterAnimatedText("10+2 ( 2015 )",
                                         speed: Duration(milliseconds: 10),
                                         textStyle: TextStyle(
                                           color: Colors.blueGrey[900],
@@ -484,7 +484,7 @@ class _EducationState extends State<Education> {
                                 child: AnimatedTextKit(
                                   isRepeatingAnimation: false,
                                   animatedTexts: [
-                                    TypewriterAnimatedText("10 ( 2015 )",
+                                    TypewriterAnimatedText("10 ( 2013 )",
                                         speed: Duration(milliseconds: 10),
                                         textStyle: TextStyle(
                                           color: Colors.blueGrey[900],
