@@ -475,7 +475,7 @@ class _SkillState extends State<Skill> {
                                       child: AnimatedTextKit(
                                         isRepeatingAnimation: false,
                                         animatedTexts: [
-                                          TypewriterAnimatedText("Ubuntu ",
+                                          TypewriterAnimatedText("MS Word",
                                               speed: Duration(milliseconds: 10),
                                               textStyle: TextStyle(
                                                 color: Colors.blueGrey[900],
