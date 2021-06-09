@@ -31,7 +31,7 @@ const String DEGREE = "Bachelor of Technology in Computer Science & Engineering 
 const String COLLEGE_NAME = "Government College Of Engineering and Textile Technology, Serampore ";
 const String CGPA = "CGPA :- 8.7";
 
-const String DIPLOMA = "Diploma in Computer Science & Technology ";
+const String DIPLOMA = "Diploma in Computer Science & Technology (2018) ";
 const String DIPLOMA_COLLEGE_NAME = "Women's Ploytechnic, Chnadannagar ";
 const String DIPLOMA_PERCENTAGE = "Percentage :- 80.1";
 
@@ -43,12 +43,12 @@ const String TENTH_PERSENTAGE = "Percentage :- 67.57";
 
 
 //SKILLS
-const String SKILL1 = "JAVA ( Programming & Android )";
+const String SKILL1 = "JAVA";
 const String SKILL2 = "SQL";
-const String SKILL3 = "" ;
-const String SKILL4 = "" ;
-const String SKILL5 = "" ;
-const String SKILL6 = "";
+const String SKILL3 = "ANDROID" ;
+const String SKILL4 = "MS WORD" ;
+//const String SKILL5 = "" ;
+//const String SKILL6 = "";
 
 
 
