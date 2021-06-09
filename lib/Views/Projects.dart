@@ -60,7 +60,7 @@ class _ProjectsState extends State<Projects> {
                 SizedBox(
                   height: 15,
                 ),
-                FutureBuilder(
+            /*    FutureBuilder(
                     future: count(2),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
@@ -77,11 +77,11 @@ class _ProjectsState extends State<Projects> {
                         );
                       }
                       return Container();
-                    }),
+                    }),*/
                 SizedBox(
                   height: 12,
                 ),
-                FutureBuilder(
+               /* FutureBuilder(
                     future: count(3),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
@@ -98,7 +98,7 @@ class _ProjectsState extends State<Projects> {
                         );
                       }
                       return Container();
-                    }),
+                    }),*/
                 SizedBox(
                   height: 12,
                 ),
@@ -115,7 +115,7 @@ class _ProjectsState extends State<Projects> {
                           SecondTechnology: ', DART ',
                           ThirdTechnology: ', FIREBASE ',
                           ForthTechnology: ', GITHUB',
-                          ProjectUrl: "https://github.com/iamsouviki/souvikportfolio",
+                          ProjectUrl: "https://github.com/Moumita-ghosh05021998/MoumitaPortfolio",
                         );
                       }
                       return Container();
@@ -123,7 +123,7 @@ class _ProjectsState extends State<Projects> {
                 SizedBox(
                   height: 12,
                 ),
-                FutureBuilder(
+                /*FutureBuilder(
                     future: count(5),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
@@ -140,7 +140,7 @@ class _ProjectsState extends State<Projects> {
                         );
                       }
                       return Container();
-                    }),
+                    }),*/
               ],
             ),
           ),
