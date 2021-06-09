@@ -41,10 +41,10 @@ const String TENTH_PERSENTAGE = "Percentage :- 67.57";
 //SKILLS
 const String SKILL1 = "JAVA ( Programming & Android )";
 const String SKILL2 = "SQL";
-const String SKILL3 = "FLUTTER ( DART )" ;
-const String SKILL4 = "GIT" ;
-const String SKILL5 = "SQLite" ;
-const String SKILL6 = "FIREBASE";
+const String SKILL3 = "" ;
+const String SKILL4 = "" ;
+const String SKILL5 = "" ;
+const String SKILL6 = "";
 
 
 
