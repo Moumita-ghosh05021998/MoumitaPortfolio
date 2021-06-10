@@ -59,7 +59,7 @@ class _ProjectsState extends State<Projects> {
                 SizedBox(
                   height: 15,
                 ),
-                FutureBuilder(
+                /*FutureBuilder(
                     future: count(2),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
@@ -76,7 +76,7 @@ class _ProjectsState extends State<Projects> {
                         );
                       }
                       return Container();
-                    }),
+                    }),*/
                 SizedBox(
                   height: 12,
                 ),
@@ -93,7 +93,7 @@ class _ProjectsState extends State<Projects> {
                           SecondTechnology: 'Dart',
                           ThirdTechnology: 'Github',
                           ForthTechnology: 'Firebase',
-                          ProjectUrl: "https://github.com/soumen744488/soumen_portfolio_flutter",
+                          ProjectUrl: "https://github.com/Moumita-ghosh05021998/MoumitaPortfolio",
                         );
                       }
                       return Container();
@@ -101,24 +101,7 @@ class _ProjectsState extends State<Projects> {
                 SizedBox(
                   height: 12,
                 ),
-                FutureBuilder(
-                    future: count(4),
-                    builder: (context, snapshot) {
-                      if (snapshot.connectionState == ConnectionState.done) {
-                        return ProjectAdapter(
-                          ProjectName: "Expense Manager",
-                          ProjectLogoPath: '',
-                          ProjectDescription: "'Expense Manager' is a Python GUI tikinter Based application , \nwhich is developed to keep tracking on daily expenses and as well as we can save money for predefine expenses which will help for future investment . ",
-                          ProjectDescriptionForMobile: "'Expense Manager' is a Python GUI tikinter Based application , \nwhich is developed to keep tracking on daily expenses and \nas well as we can save money for predefine expenses which will help for future investment .",
-                          FirstTechnology: '',
-                          SecondTechnology: 'Python',
-                          ThirdTechnology: 'Sqlite',
-                          ForthTechnology: '',
-                          ProjectUrl: "https://github.com/soumen744488/ExpenseManager",
-                        );
-                      }
-                      return Container();
-                    }),
+
               ],
             ),
           ),
