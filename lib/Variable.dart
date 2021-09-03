@@ -29,7 +29,7 @@ const String WHO_AM_I ="Hello! I'm Moumita Ghosh  , and Graduated in Computer Sc
 //EDUCATION
 const String DEGREE = "Bachelor of Technology in Computer Science & Engineering ( 2018-2021 ) ";
 const String COLLEGE_NAME = "Government College Of Engineering and Textile Technology, Serampore ";
-const String CGPA = "CGPA :- 8.7";
+const String CGPA = "DGPA :- 8.9";
 
 const String DIPLOMA = "Diploma in Computer Science & Technology (2018) ";
 const String DIPLOMA_COLLEGE_NAME = "Women's Ploytechnic, Chnadannagar ";
