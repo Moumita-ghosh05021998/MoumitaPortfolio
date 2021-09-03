@@ -9,7 +9,7 @@ const String FACEBOOK_URL = "https://fb.com/";
 
 //INTRODUCTION PAGE VARIABLE
 const String NAME = "Moumita Ghosh";
-const String PROFESSION_DETAILS = 'Software Developer and Final Year Computer Science Engineering Student';
+const String PROFESSION_DETAILS = 'Software Developer and graduated in Computer Science Engineering';
 const String MORE_DETAILS_INTRODUCTION = "I love to build neat, cool and scalable application and I'm an aspiring Full Stack engineer.\n"
     'I love to learn and build new stuff that are beneficial to the community and cool to work on.\n'
     'I also have great interest in the open source community.';
@@ -20,7 +20,7 @@ const String MORE_DETAILS_INTRODUCTION = "I love to build neat, cool and scalabl
 const String IMAGE_PATH = 'assets/images/moumita.jpg';
 
 //ABOUT ME SECT
-const String WHO_AM_I ="Hello! I'm Moumita Ghosh  , an Computer Science and Engineering students and software Developer.\n"
+const String WHO_AM_I ="Hello! I'm Moumita Ghosh  , and Graduated in Computer Science and Engineering  and software Developer.\n"
     'I love to create performant and interesting stuff that are benificial to the community. I enjoy learning and exploring new areas in the technologies. \nIn my opinion,'
     'getting your hands dirty is the best way to learn a new skill.\n'
     'My area of interest are Cross Platform Application Development , Android Application Development and Full Stack Development\n'
