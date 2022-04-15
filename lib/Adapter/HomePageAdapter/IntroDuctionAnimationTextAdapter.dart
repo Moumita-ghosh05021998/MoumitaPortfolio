@@ -164,7 +164,7 @@ class _IntroDuctionAnimationTextAdapterState
                         style: TextStyle(color: Colors.black, fontSize: 15),
                       ),
                       onPressed: (){
-                        launch("");
+                        launch("https://drive.google.com/file/d/1D2LQYvkUEA74FDBiWteWkARs9sWSTU0R/view?usp=drivesdk");
                       },
                     ),
                   );
