@@ -150,6 +150,30 @@ class _IntroDuctionAnimationTextAdapterState
             ),
           ),
           Container(
+            padding: EdgeInsets.only(bottom: 20),
+            child: FutureBuilder(
+              future: count(8),
+              builder: (context,snapshot){
+                if(snapshot.connectionState == ConnectionState.done){
+                  return Container(
+                    margin: EdgeInsets.only(top: 15),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(30.0),color: Colors.white38,),
+                    child: TextButton(
+                      child: Text(
+                        "    Cover Letter    ",
+                        style: TextStyle(color: Colors.black, fontSize: 15),
+                      ),
+                      onPressed: (){
+                        launch("");
+                      },
+                    ),
+                  );
+                }
+                return Container();
+              },
+            ),
+          ),
+          Container(
             child: FutureBuilder(
               future: count(9),
               builder: (context, snapshot) {
